@@ -58,12 +58,12 @@ Array(10000).fill().forEach(addStar);
 
 // Background
 
-const bg = new THREE.TextureLoader().load('.../src/bg.jpg');
+const bg = new THREE.TextureLoader().load('.././src/bg.jpg');
 scene.background = bg;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('.../src/webdev.png');
+const jeffTexture = new THREE.TextureLoader().load('.././src/webdev.png');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
